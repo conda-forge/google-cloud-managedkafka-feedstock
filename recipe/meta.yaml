@@ -1,5 +1,5 @@
 {% set name = "google-cloud-managedkafka" %}
-{% set version = "0.1.10" %}
+{% set version = "0.1.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/google_cloud_managedkafka-{{ version }}.tar.gz
-  sha256: 852a0fdef05ed9046b2ec172f51b10f5473e4521587025050bed4478f1fc71e0
+  sha256: 5f0feb0ea27fee66119f1e12ff77219e59e3dd2414dae56eb427e4135788324b
 
 build:
   noarch: python

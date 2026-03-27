@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-managedkafka
-  version: "0.3.0"
+  version: "0.4.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_managedkafka-${{ version }}.tar.gz
-  sha256: 92d2d2b89517da8fb679d861476e9d9508b8c468ced89ab9a72cf3dbb3d17b03
+  sha256: b3e36f0cc8a8ded8c61e3939432daae4539dd456c1a96fa801feed2bd9c0de59
 
 build:
   number: 0
